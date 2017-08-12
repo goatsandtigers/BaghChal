@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.goatsandtigers.goatsandtigers.GoatsAndTigersActivity" >
+
+        <item
+            android:id="@+id/action_restart"
+            android:orderInCategory="100"
+            android:showAsAction="never"
+            android:title="Restart"/>
+        <item
+            android:id="@+id/action_rules"
+            android:orderInCategory="101"
+            android:showAsAction="never"
+            android:title="Rules"/>
+        <item
+            android:id="@+id/action_play_as_goats"
+            android:orderInCategory="101"
+            android:showAsAction="never"
+            android:checkable="true"
+            android:checked="true"
+            android:title="Play as Goats"/>
+        <item
+            android:id="@+id/action_play_as_tigers"
+            android:orderInCategory="101"
+            android:showAsAction="never"
+            android:checkable="true"
+            android:checked="false"
+            android:title="Play as Tigers"/>
+
+</menu>
